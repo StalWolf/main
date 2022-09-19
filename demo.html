@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="#OOOOOO">
+<title>demo - StalW</title>
+<font color="#FFOOOO">
+<p align="center"><font size=10><font face="Bahnschrift">Voici les informations personnelles de votre appareil</font></font></p>
+<p align="center"><font size="6"><font face="URW Gothic">Veuillez noter que ces informations sont uniquement à but informatif dans la perspective de sensibiliser les personnes concernant leur anonymat sur le web.</font></p>
+<font color="#FFFFFF">
+<br>
+  
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+  
+    <script>
+        /* Add "https://api.ipify.org?format=json" statement
+           this will communicate with the ipify servers in
+           order to retrieve the IP address $.getJSON will
+           load JSON-encoded data from the server using a
+           GET HTTP request */
+  
+        $.getJSON("https://api.ipify.org?format=json",
+                                          function(data) {
+  
+            // Setting text of element P with id gfg
+            $("#gfg").html(data.ip);
+        })
+    </script>
+  <p align="center"><font size="8"><font face="Century Gothic"> <font color="#FFOOOOOO">ip address:</font></font></font></p>
+<p id="gfg" align="center"><font color="#FFOOOO"></font></p>
+
+
+
+
+
+
+  <p id="1" align="center"><font size="1"><font face="Century Gothic">système d'exploitation</font></font></p>
+   <script>
+  {
+  var x = "système d'exploitation: " + navigator.platform;
+  document.getElementById("1").innerHTML=x;
+  }
+</script>
+
+
+
+
+<p id="2" align="center"><font size="1"><font face="Century Gothic">codename</font></font></p>
+  
+<script>
+  {
+  var x = "codename: " + navigator.appCodeName;
+  document.getElementById("2").innerHTML=x;
+  }
+</script>
+
+
+
+
+<p id="3" align="center"><font size="1"><font face="Century Gothic">navigateur</font></font></p>
+   <script>
+  {
+  var x = "nom de l'application: " + navigator.appName;
+  document.getElementById("3").innerHTML=x;
+  }
+  </script>
+
+
+
+
+<p id="4" align="center"><font size="1"><font face="Century Gothic">version</font></font></p>
+   <script>
+  {
+  var x = "version: " + navigator.appVersion;
+  document.getElementById("4").innerHTML=x;
+  }
+  </script>
+
+
+
+
+<p id="5" align="center"><font size="1"><font face="Century Gothic">configuration/font></font></p>
+   <script>
+  {
+  var x = "configuration: " + navigator.userAgent;
+  document.getElementById("5").innerHTML=x;
+  }
+  </script>
+
+
+
+
+<p id="java" align="center"><font size="10"><font face="Century Gothic">java</font></p>
+   
+   
+  <script>
+  if(navigator.javaEnabled()==true)
+  {
+  var x = "Java est activé.";
+   
+  }else var x = "Java n'est pas activé.";
+    document.getElementById("java").innerHTML=x;
+</script>
+
+
+
+
+
+
+
+
