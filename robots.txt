@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /404.html
+Disallow: /code_python_write_excel_csv.html
+Disallow: /demo.html
+
+#BTW, what are you doing here? 
