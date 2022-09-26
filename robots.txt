@@ -2,5 +2,7 @@ User-agent: *
 Disallow: /404.html
 Disallow: /code_python_write_excel_csv.html
 Disallow: /demo.html
+Sitemap: https://stalwolf.github.io/main/sitemap.txt
 
-#BTW, what are you doing here? 
+
+# BTW, what are you doing here? 
