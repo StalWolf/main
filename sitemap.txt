@@ -5,3 +5,4 @@ https://stalwolf.github.io/main/articles.html
 https://stalwolf.github.io/main/contacts.html
 https://stalwolf.github.io/main/projects.html
 https://stalwolf.github.io/main/reseaux-sociaux.html
+https://stalwolf.github.io/main/msc-pt-statistic.html
