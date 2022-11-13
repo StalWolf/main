@@ -24,7 +24,7 @@ nav>a:hover{
 #lab{
 	width: 30px;
 	height: 30px;
-	background: linear-gradient(#000 0%,#000 20%,transparent 21%, transparent 40%,#000 41%, #000 60%,transparent 61%,transparent 80%,#000 81%, #000 100%);
+	background: linear-gradient(#FFF 0%,#FFF 20%,transparent 21%, transparent 40%,#FFF 41%, #FFF 60%,transparent 61%,transparent 80%,#FFF 81%, #FFF 100%);
 	margin:4px;
 	display:none;
 }
